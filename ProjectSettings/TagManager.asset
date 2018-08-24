@@ -9,6 +9,7 @@ TagManager:
   - Green
   - Undefined
   - Enemy
+  - Patrol Point
   layers:
   - Default
   - TransparentFX
