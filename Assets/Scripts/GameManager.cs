@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
 	public static int currentLevel;
 	public static int deathCount = 0;
-
 	public GameObject youWinText;
 	public GameObject replayButton;
 
@@ -25,7 +24,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void restartGame() {
-		currentLevel = 0;
+        currentLevel = 0;
 		SceneManager.LoadScene(currentLevel, LoadSceneMode.Single);
 		Time.timeScale = 1;
 	}

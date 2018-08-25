@@ -61,7 +61,12 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-        if (other.tag == "Goal") GameManager.CompleteLevel();
+        if (other.tag == "Goal")
+        {
+            int currentScene = SceneManager.GetActiveScene().buildIndex;
+            if (currentScene != 3) SceneManager.LoadScene(currentScene + 1);
+            else GameManager.CompleteLevel();
+        }
             
 
 
