@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour {
 	public float moveSpeed;
@@ -60,8 +61,11 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.tag == "Goal") GameManager.CompleteLevel();
-	}
+        if (other.tag == "Goal") GameManager.CompleteLevel();
+            
+
+
+    }
 
 	void Die() {
 		Instantiate(deathParticles, t.position, Quaternion.LookRotation(Vector3.up));
