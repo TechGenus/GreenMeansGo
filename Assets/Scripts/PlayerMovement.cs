@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour {
         if (other.tag == "Goal")
         {
             int currentScene = SceneManager.GetActiveScene().buildIndex;
-            if (currentScene != 4) SceneManager.LoadScene(currentScene + 1);
+            if (currentScene != 6) SceneManager.LoadScene(currentScene + 1);
             else GameManager.CompleteLevel();
         }
             
