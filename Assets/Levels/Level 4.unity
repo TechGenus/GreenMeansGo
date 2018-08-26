@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4447575, g: 0.49429953, b: 0.57351106, a: 1}
+  m_IndirectSpecularColor: {r: 0.44475806, g: 0.4942994, b: 0.5735104, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000002, guid: f081d0a9da88de54caa16ebb927f379b,
+  m_LightingDataAsset: {fileID: 112000002, guid: 401a6ad06d2ab2249adde9e993a88269,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -1302,7 +1302,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 830367001}
   m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
-  m_LocalPosition: {x: -1.28, y: 7.26, z: -7.17}
+  m_LocalPosition: {x: -2.63, y: 7.7, z: -5.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2007,7 +2007,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.5999999, b: 0, a: 1}
-  m_Intensity: 1.02
+  m_Intensity: 0.6
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -2015,7 +2015,7 @@ Light:
     m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.693
+    m_Strength: 0.76
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -2780,7 +2780,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.4705882, g: 0.16551723, b: 0, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -2921,8 +2921,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f45f04d59d7d20e4db13ee7cb3c09fa4, type: 2}
   - {fileID: 2100000, guid: 97fb5bf9dc9968a44a69dd1aff004b01, type: 2}
   - {fileID: 2100000, guid: eb989e4494d86514f9904c020754af5a, type: 2}
-  randomDelayMin: 199
-  randomDelayMax: 199
+  randomDelayMin: 1
+  randomDelayMax: 4
 --- !u!1001 &1753268874
 Prefab:
   m_ObjectHideFlags: 0
