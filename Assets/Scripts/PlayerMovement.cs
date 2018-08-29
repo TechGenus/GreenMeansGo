@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour {
 	private Vector3 spawnPosition;
 	private Vector3 newRotation;
 
+
+
 	// Use this for initialization
 	void Start() {
 		rb = GetComponent<Rigidbody>();
@@ -45,8 +47,8 @@ public class PlayerMovement : MonoBehaviour {
 		} else {
 			anim.SetInteger("state", 0);
 		}
-
-		Jump();
+        
+        Jump();
 	}
 
 	void OnCollisionEnter(Collision collision) {
@@ -66,7 +68,7 @@ public class PlayerMovement : MonoBehaviour {
             int currentScene = SceneManager.GetActiveScene().buildIndex;
             if (currentScene != 6) SceneManager.LoadScene(currentScene + 1);
             else GameManager.CompleteLevel();
-        }
+            }
             
 
 
