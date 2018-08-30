@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4447575, g: 0.49429953, b: 0.57351106, a: 1}
+  m_IndirectSpecularColor: {r: 0.44475806, g: 0.4942994, b: 0.5735104, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -1348,7 +1348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   youWinText: {fileID: 1320809013}
-  replayButton: {fileID: 332518977}
+  replayText: {fileID: 0}
 --- !u!1 &880212419
 GameObject:
   m_ObjectHideFlags: 0
